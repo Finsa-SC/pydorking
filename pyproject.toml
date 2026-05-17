@@ -2,4 +2,7 @@
 name = "py-dorking"
 version = "0.1.0"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "curl-cffi>=0.15.0",
+    "duckduckgo-search>=8.1.1",
+]

@@ -1,15 +1,16 @@
 {
 	"nodes":[
-		{"id":"5744ce42ed54d3b7","x":-1080,"y":220,"width":180,"height":60,"color":"#4400ff","type":"text","text":"   [Main Program]"},
-		{"id":"7f60fc189a6eed12","x":-1157,"y":380,"width":334,"height":145,"color":"3","type":"text","text":"##### User Input\nUser memasukan input lalu di parse menggunakan argparse dan divalidasi sebelum di store ke config"},
-		{"id":"8c0e969d38d41aa0","x":-1320,"y":660,"width":250,"height":60,"color":"1","type":"text","text":"Fallback dan store default value"},
-		{"id":"f2fff45dd5ac069f","x":-920,"y":644,"width":250,"height":93,"color":"4","type":"text","text":"memasukan data ke config global menggunakan setter"},
-		{"id":"14dce519e0efbb3c","x":-1101,"y":840,"width":223,"height":140,"color":"6","type":"text","text":"##### Executor\nmain.py memanggil orchestrator untuk mengeksekusi perintah"},
+		{"id":"5744ce42ed54d3b7","type":"text","text":"   [Main Program]","x":-1080,"y":220,"width":180,"height":60,"color":"#4400ff"},
+		{"id":"7f60fc189a6eed12","type":"text","text":"##### User Input\nUser memasukan input lalu di parse menggunakan argparse dan divalidasi sebelum di store ke config","x":-1157,"y":380,"width":334,"height":145,"color":"3"},
+		{"id":"8c0e969d38d41aa0","type":"text","text":"Fallback dan store default value","x":-1320,"y":660,"width":250,"height":60,"color":"1"},
+		{"id":"f2fff45dd5ac069f","type":"text","text":"memasukan data ke config global menggunakan setter","x":-920,"y":644,"width":250,"height":93,"color":"4"},
+		{"id":"14dce519e0efbb3c","type":"text","text":"##### Executor\nmain.py memanggil orchestrator untuk mengeksekusi perintah","x":-1101,"y":840,"width":223,"height":140,"color":"6"},
 		{"id":"11c0d76b55e2bb3c","type":"file","file":"Directory Hierarki.md","x":-500,"y":16,"width":400,"height":480},
 		{"id":"86ebc383e1646382","type":"file","file":"query storage.md","x":-500,"y":589,"width":400,"height":400},
 		{"id":"7eca5189c4718e11","type":"file","file":"Package requirements.md","x":-60,"y":840,"width":400,"height":149},
-		{"id":"a77011abc419f4ed","x":-1050,"y":120,"width":120,"height":50,"color":"6","type":"text","text":"workflow"},
-		{"id":"4dfae19c1cc6a5e0","x":-1187,"y":1080,"width":395,"height":200,"color":"6","type":"text","text":"##### executor.py\nmenjalankan dorking, menggunakan generator untuk membaca data query\ndidalam fungsi execute dan menggunakan fungsi run_execute untuk menjalankan execute sesuai config"}
+		{"id":"a77011abc419f4ed","type":"text","text":"workflow","x":-1050,"y":120,"width":120,"height":50,"color":"6"},
+		{"id":"4dfae19c1cc6a5e0","type":"text","text":"##### executor.py\nmenjalankan dorking, menggunakan generator untuk membaca data query\ndidalam fungsi execute dan menggunakan fungsi run_execute untuk menjalankan execute sesuai config","x":-1187,"y":1080,"width":395,"height":200,"color":"6"},
+		{"id":"5be3c46951c943e9","x":-1803,"y":260,"width":250,"height":265,"type":"text","text":"##### Config\nsubdomain\ndelay\ntechnique"}
 	],
 	"edges":[
 		{"id":"eec57ad3b624bf32","fromNode":"5744ce42ed54d3b7","fromSide":"bottom","toNode":"7f60fc189a6eed12","toSide":"top","color":"#0400ff","label":"run"},

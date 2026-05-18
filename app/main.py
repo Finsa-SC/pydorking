@@ -11,3 +11,5 @@ args = parser.parse_args()
 config = DorkingConfig(
     subdomain=args.domain
 )
+
+set_config(config)

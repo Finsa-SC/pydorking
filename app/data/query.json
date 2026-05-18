@@ -1,0 +1,18 @@
+{
+  "sensitive_files": [
+    "filetype:env \"DB_PASSWORD\"",
+    "filetype:log \"password\" \"unauthorized\"",
+    "filetype:sql \"wp_users\" dump",
+    "ext:bkp \"config\""
+  ],
+  "exposed_directories": [
+    "intitle:\"index of\" \"contacts.xlsx\"",
+    "intitle:\"index of\" \"backup.zip\"",
+    "intitle:\"index of /\" \"wp-content/uploads/\""
+  ],
+  "admin_interfaces": [
+    "inurl:login.php intitle:\"Admin Login\"",
+    "inurl:dashboard intitle:\"Sign In\"",
+    "inurl:/phpmyadmin/index.php"
+  ]
+}

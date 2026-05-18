@@ -3,6 +3,7 @@ from dataclasses import dataclass
 @dataclass(frozen=True)
 class DorkingConfig:
     subdomain: str
+    categories: str = None
 
 _config = DorkingConfig()
 

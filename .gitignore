@@ -122,3 +122,4 @@ sqlmap_output/
 # This Project
 # =========================
 *.txt
+!banner.txt
